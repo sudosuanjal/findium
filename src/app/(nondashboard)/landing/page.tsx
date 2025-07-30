@@ -1,9 +1,12 @@
 import NavBar from "@/components/NavBar";
+import React from "react";
 
-export default function Home() {
+const Landing = () => {
   return (
     <div>
       <NavBar />
     </div>
   );
-}
+};
+
+export default Landing;
